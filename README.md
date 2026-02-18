@@ -10,7 +10,7 @@ The first module is a particle filter for localization given a known map. It use
 
 The second module handles mapping given a known true pose. It builds an occupancy grid map from sensor readings using log-odds updates, accounting for noisy motion and sensor models.
 
-The third module, currently in progress, combines both — estimating the robot's pose and the map simultaneously with no prior knowledge of either. This will use a Rao-Blackwellized Particle Filter (FastSLAM) approach.
+The third module, currently in progress, combines both — estimating the robot's pose and the map simultaneously with no prior knowledge of either. This will use ICP method.
 
 ## Status
 
